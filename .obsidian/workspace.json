@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Weekly Notes/24-W25.md",
+                "file": "Weekly Notes/24-W26.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Weekly Notes/24-W25.md",
+                "file": "Weekly Notes/24-W26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Weekly Notes/24-W25.md",
+                "file": "Weekly Notes/24-W26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Weekly Notes/24-W25.md"
+                "file": "Weekly Notes/24-W26.md"
               }
             }
           },
@@ -161,6 +161,7 @@
   "active": "4d2cc61e16d91ff7",
   "lastOpenFiles": [
     "Weekly Notes/24-W25.md",
+    "Weekly Notes/24-W26.md",
     "Templates/Untitled.md",
     "2024-W25.md",
     "Templates",
