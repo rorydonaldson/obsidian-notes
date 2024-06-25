@@ -13,7 +13,7 @@ Then go to VPN in settings and disable
 Come off WSS, unset the proxies and curl ca bundle, go off network.
 ## Brew Actual
 for brew with artifactory:
-1. get an auth token via curl  -X POST -u AVIVAGROUPUSERNAMEHEREWITHOUTQUOTESANDNODOMAIN [https://binaries.avivagroup.com/artifactory/api/security/apiKey](https://binaries.avivagroup.com/artifactory/api/security/apiKey "https://binaries.avivagroup.com/artifactory/api/security/apikey")
+1. `get an auth token via curl  -X POST -u AVIVAGROUPUSERNAMEHEREWITHOUTQUOTESANDNODOMAIN https://binaries.avivagroup.com/artifactory/api/security/apikey
 2. add the following to .zshrc:
     1. `export HOMEBREW_DOCKER_REGISTRY_TOKEN=<the auth token from previous step>`
     2. `export PYTHONWARNINGS="ignore:Unverified HTTPS request"`
@@ -54,6 +54,3 @@ Add the following to `~/.zshrc`:
 
 ## Pyenv 
 Need CA certs set, then can pyenv install
-
-## Snowflake GAP analysis
-- 
