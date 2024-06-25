@@ -10,7 +10,7 @@ Then go to VPN in settings and disable
 
 `launchctl load -w /Library/LaunchAgents/com.symantec.wssa.uix.plist` to turn back on 
 ## Brew Bypass
-Come off WSS, unset the proxies, go off network.
+Come off WSS, unset the proxies and curl ca bundle, go off network.
 ## Brew Actual
 for brew with artifactory:
 1. get an auth token via curl  -X POST -u AVIVAGROUPUSERNAMEHEREWITHOUTQUOTESANDNODOMAIN [https://binaries.avivagroup.com/artifactory/api/security/apiKey](https://binaries.avivagroup.com/artifactory/api/security/apiKey "https://binaries.avivagroup.com/artifactory/api/security/apikey")
