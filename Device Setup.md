@@ -18,3 +18,32 @@ for brew with artifactory:
     1. `export HOMEBREW_DOCKER_REGISTRY_TOKEN=<the auth token from previous step>`
     2. `export PYTHONWARNINGS="ignore:Unverified HTTPS request"`
     3. `export HOMEBREW_ARTIFACT_DOMAIN=https://binaries.avivagroup.com/artifactory/<whateveryourremoteiscalled>`
+
+## npm
+1. Generate an auth token at https://binaries.avivagroup.com/ui/repos/tree/General/npm-virtual
+	1. Remember to regenerate anytime your password is changed
+2. Add a file at `~/.npmrc` as below
+
+```
+registry=[https://binaries.avivagroup.com/artifactory/api/npm/npm-virtual/](https://binaries.avivagroup.com/artifactory/api/npm/npm-virtual/ "https://binaries.avivagroup.com/artifactory/api/npm/npm-virtual/")  
+email=rory.donaldson@aviva.com  
+always-auth=true  
+noproxy[]=binaries.avivagroup.com  
+//binaries.avivagroup.com/artifactory/api/npm/npm-virtual/:_auth="<owntoken>"
+```
+
+## PyPI
+
+Run the below:
+```
+pip config --user set global.trusted-host "binaries.avivagroup.com"
+pip config --user set global.index-url https://binaries.avivagroup.com/artifactory/api/pypi/pypi-virtual/simple
+```
+Add the following to `~/.zshrc`:
+```
+export http_proxy="http://ep.threatpulse.net:80"
+export https_proxy="http://ep.threatpulse.net:80"
+export CURL_CA_BUNDLE="$HOME/.certs/ca-bundle.crt"
+export no_proxy="binaries.avivagroup.com,localhost,127.0.0.1,host.docker.internal,10.0.0.0/16,192.168.59.0/24,19$
+```
+If you don't have the C
