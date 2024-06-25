@@ -54,3 +54,6 @@ Add the following to `~/.zshrc`:
 
 ## Pyenv 
 Need CA certs set, then can pyenv install
+
+## Snowflake GAP analysis
+- 
