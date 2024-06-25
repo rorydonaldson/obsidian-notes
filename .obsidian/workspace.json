@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Device Setup.md",
+                "file": "Weekly Notes/24-W26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Device Setup.md",
+                "file": "Weekly Notes/24-W26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Device Setup.md"
+                "file": "Weekly Notes/24-W26.md"
               }
             }
           },
@@ -171,10 +170,10 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "3c0b0b67232586de",
+  "active": "4d2cc61e16d91ff7",
   "lastOpenFiles": [
-    "Weekly Notes/24-W26.md",
     "Device Setup.md",
+    "Weekly Notes/24-W26.md",
     "Snowflake/Basic Setup.md",
     "Snowflake",
     "Weekly Notes/24-W25.md",
