@@ -25,8 +25,8 @@ for brew with artifactory:
 2. Add a file at `~/.npmrc` as below
 
 ```
-registry=[https://binaries.avivagroup.com/artifactory/api/npm/npm-virtual/](https://binaries.avivagroup.com/artifactory/api/npm/npm-virtual/ "https://binaries.avivagroup.com/artifactory/api/npm/npm-virtual/")  
-email=rory.donaldson@aviva.com  
+registry=https://binaries.avivagroup.com/artifactory/api/npm/npm-virtual/  
+email=<firstname.lastname>@aviva.com  
 always-auth=true  
 noproxy[]=binaries.avivagroup.com  
 //binaries.avivagroup.com/artifactory/api/npm/npm-virtual/:_auth="<owntoken>"
@@ -44,7 +44,7 @@ Add the following to `~/.zshrc`:
 export http_proxy="http://ep.threatpulse.net:80"
 export https_proxy="http://ep.threatpulse.net:80"
 export CURL_CA_BUNDLE="$HOME/.certs/ca-bundle.crt"
-export no_proxy="binaries.avivagroup.com,localhost,127.0.0.1,host.docker.internal,10.0.0.0/16,192.168.59.0/24,19$
+export no_proxy="binaries.avivagroup.com,localhost,127.0.0.1,host.docker.internal,10.0.0.0/16,192.168.59.0/24,192.168.49.0/24,192.168.39.0/24,192.168.49.2,.avivacloud.com
 ```
 If you don't have the cert bundle, can get from here https://github.com/aviva-verde/data-engineering-tools/tree/main/onboarding/certs
 
@@ -52,3 +52,5 @@ If you don't have the cert bundle, can get from here https://github.com/aviva-ve
 Add the following to `~/.zshrc`:
 `export GOPROXY="https://binaries.avivagroup.com/artifactory/api/go/go-github-virtual"`
 
+## Pyenv 
+Need CA certs set, then can pyenv install
