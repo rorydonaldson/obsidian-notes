@@ -46,4 +46,9 @@ export https_proxy="http://ep.threatpulse.net:80"
 export CURL_CA_BUNDLE="$HOME/.certs/ca-bundle.crt"
 export no_proxy="binaries.avivagroup.com,localhost,127.0.0.1,host.docker.internal,10.0.0.0/16,192.168.59.0/24,19$
 ```
-If you don't have the C
+If you don't have the cert bundle, can get from here https://github.com/aviva-verde/data-engineering-tools/tree/main/onboarding/certs
+
+## Go Proxy
+Add the following to `~/.zshrc`:
+`export GOPROXY="https://binaries.avivagroup.com/artifactory/api/go/go-github-virtual"`
+
