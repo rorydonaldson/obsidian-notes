@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Device Setup.md",
+                "file": "Weekly Notes/24-W26.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Device Setup.md",
+                "file": "Weekly Notes/24-W26.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Device Setup.md",
+                "file": "Weekly Notes/24-W26.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Device Setup.md"
+                "file": "Weekly Notes/24-W26.md"
               }
             }
           },
@@ -173,8 +173,8 @@
   },
   "active": "3c0b0b67232586de",
   "lastOpenFiles": [
-    "Weekly Notes/24-W26.md",
     "Device Setup.md",
+    "Weekly Notes/24-W26.md",
     "Snowflake/Basic Setup.md",
     "Snowflake",
     "Weekly Notes/24-W25.md",
