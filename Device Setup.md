@@ -66,17 +66,5 @@ Need CA certs set, then can pyenv install
 
 
 ## OpenAI/ChatGPT
-- 
-## gpg 
-- How to add to keychain?
+- Access can be granted by going to https://itselfservice.avivagroup.com/ --> system access request, and then searching for Generative AI
 
-
-## Request
-- [ ] Done for me but not the others?
-
-Access to the following required for Aviva Zero Data Engineers, who are required to complete development work with the latest tooling, make use of provided GitHub Co-Pilot licences, an use Slack to communicate with AZ Software Engineering team. 
-
-- Add to ChatGPT/OpenAI unblock AD group.
-- Add to GitHub Copilot unblock AD group. 
-- Unblock access to Slack
-   - Proxies are blocking correct functioning of slack. Can access slack, send messages etc, but can't upload images to chats, make calls, use huddles, share screens etc.
