@@ -48,6 +48,8 @@ export no_proxy="binaries.avivagroup.com,localhost,127.0.0.1,host.docker.interna
 ```
 If you don't have the cert bundle, can get from here https://github.com/aviva-verde/data-engineering-tools/tree/main/onboarding/certs
 
+> Note: You will need to be on the VPN or office network for this to work 
+
 ## Go Proxy
 Add the following to `~/.zshrc`:
 `export GOPROXY="https://binaries.avivagroup.com/artifactory/api/go/go-github-virtual"`
@@ -64,3 +66,12 @@ Need CA certs set, then can pyenv install
 
 ## gpg 
 - How to add to keychain?
+
+
+
+Access to the following required for Aviva Zero Data Engineers, who are required to complete development work with the latest tooling, make use of provided GitHub Co-Pilot licences, an use Slack to communicate with AZ Software Engineering team. 
+
+- Add to ChatGPT/OpenAI unblock AD group.
+- Add to GitHub Copilot unblock AD group. 
+- Unblock access to Slack
+   - Proxies are blocking correct functioning of slack. Can access slack, send messages etc, but can't upload images to chats, make calls, use huddles, share screens etc.
