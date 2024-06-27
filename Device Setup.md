@@ -68,3 +68,6 @@ Need CA certs set, then can pyenv install
 ## OpenAI/ChatGPT
 - Access can be granted by going to https://itselfservice.avivagroup.com/ --> system access request, and then searching for Generative AI
 
+## AWS 
+- Run `aws-vault exec aviva-data-testing` to set the profile
+- Needs the proxies turned off 
