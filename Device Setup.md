@@ -71,3 +71,5 @@ Need CA certs set, then can pyenv install
 ## AWS 
 - Run `aws-vault exec aviva-data-testing` to set the profile
 - Needs the proxies turned off 
+- Can do like `aws-vault exec aviva-data-testing aws s3 ls`
+- 
