@@ -60,10 +60,13 @@ Need CA certs set, then can pyenv install
 ## Slack
 - Some features don't work
 
-## Copilot and OpenAI
+## Copilot
 - Need to speak to James Cryer for co-pilot licence
-- OpenAI and Copilot need you added to an AD group for proxy unblock https://itselfservice.avivagroup.com/index.aspx?sf=a7c2c7a8-ee81-41f1-a18a-f84e867942dd
+- Need you added to an AD group for proxy unblock https://itselfservice.avivagroup.com/index.aspx?sf=a7c2c7a8-ee81-41f1-a18a-f84e867942dd
 
+
+## OpenAI/ChatGPT
+- 
 ## gpg 
 - How to add to keychain?
 
