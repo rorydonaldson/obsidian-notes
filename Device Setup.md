@@ -68,6 +68,8 @@ Need CA certs set, then can pyenv install
 - How to add to keychain?
 
 
+## Request
+- [ ] Done for me but not the others?
 
 Access to the following required for Aviva Zero Data Engineers, who are required to complete development work with the latest tooling, make use of provided GitHub Co-Pilot licences, an use Slack to communicate with AZ Software Engineering team. 
 
